@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #20B2AA;
+    background: #7B68EE;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:visited {
+    color: chartreuse;
+}
+
+a:active {
+    color: aqua;
+}
+
+input {
+    margin: 10px 0;
+    border: none;
+    background: rgb(68, 192, 250);
+}
+
+textarea {
+    margin: 10px 0;
+    border: none;
+    background: rgb(68, 192, 250);
+}
+
+label {
+    background: black;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+.abt {
+    font-style: italic;
+    font-weight: 666;
+    background: #191970;
+}
+
+.card {
+    border: 5px solid rgb(182, 233, 240);
+    margin: 10px;
+    padding: 0 30px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.info {
+    background: black;
+    padding-bottom: 10px;
+}
+
+.hobby {
+    background: white;
+}
+
+.work {
+    background: lightgoldenrodyellow;
+}
+
+.contact {
+    background: blue;
+}
+
+.btn {
+    background: #ff5096;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: #00663d;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background: #fd7caf;
+    color: red;
+}
+
+.hobby-list {
+    list-style: none;
+}
+
+.hobby-list li:hover {
+    color: #ff5096;
+    cursor: default;
+}
+
+.work-table {
+    width: 100%;
+}
+
+.work-table tr {
+    text-align: center;
+}
+
+.work-table td:nth-child(odd) {
+    background: rgb(248, 248, 44);
+}
+
+.top {
+    display: inline-block;
+}
+
+.cntct {
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+
+@media (max-width: 650px) {
+    .top {
+        display: block;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
